@@ -20,25 +20,24 @@
                 </select>
             </label>
             <label class="form-conversor">Converter <b>para</b>
-                <select>
+                <select id="currency-select">
                     <option>US$ Dólar Americano</option>
-                    <option>€ Euro</option>
-                    <option>Biticoin</option>
+                    <option>€ Euro</option>                    
                 </select>
             </label>
             <label class="form-conversor">
                 <b>Valor</b>
-                <input placeholder="R$ 10.000,00">
+                <input id="input-real" placeholder="R$ 10.000,00">
             </label>
-            <button>Converter</button>
+            <button id="convert-button" type="button">Converter</button>
             <section class="painel-conversor">
                 <img src="img/brasil 2.svg" alt="brasil">
                 <p class="coin">Real</p>
-                <h3>R$ 10.000,00</h3>
+                <h3 id="real-value-text">R$ 10.000,00</h3>
                 <img class="arrow" src="img/Vector.png" alt="seta-baixo">
-                <img src="img/eua.svg" alt="eua">
-                <p class="coin">Dólar Americano</p>
-                <h3>US$ 2.000,00</h3>
+                <img id="currency-image" src="img/eua.svg" alt="eua">
+                <p id="currency-name" class="coin">Dólar Americano</p>
+                <h3 id="currency-value-text">US$ 2.000,00</h3>
             </section>                     
         </div>
     </main>
